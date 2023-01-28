@@ -99,6 +99,7 @@ li,ul {
 }
 
 button{
+    display: flex;
     border-radius: 10px;
     border: 3px solid white;
 }
@@ -108,6 +109,15 @@ button{
     color: rgb(211 222 236);;
 }
 
+button:hover {
+    transition: 100ms;
+    background-color: rgb(36 50 66 / 10%) ;
+    
+}
+
+
+
+
 @media(max-width:900px){
     .nav{
         display: flex;
@@ -116,4 +126,17 @@ button{
         height: 100%;
         background-color: rgb(235, 235, 235);
     }
+
+    h1{
+        font-size: 20px;
+    }
+
+    li,ul {
+        font-size: 15px;
+    }
+
+    ::placeholder , p{
+        font-size: 15px;
+    }
+    
 }
